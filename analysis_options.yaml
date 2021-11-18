@@ -1,0 +1,24 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    parameter_assignments: true
+    missing_required_param: true
+    sort_constructors_first: false
+    prefer_single_quotes: true
+    lines_longer_than_80_chars: true
+    always_put_required_named_parameters_first: true
+    prefer_const_literals_to_create_immutables: false
+    avoid_classes_with_only_static_members: false
+    avoid_print: false
+    unnecessary_statements: false
+    prefer_final_locals: false
+    must_be_immutable: true
+    avoid_multiple_declarations_per_line: false
+    invalid_annotation_target: false
+
+analyzer:
+  errors:
+    missing_required_param: error
+    parameter_assignments: error
+    missing_return: error
