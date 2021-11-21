@@ -1,0 +1,1 @@
+export 'src/providers/service_provider.dart';
